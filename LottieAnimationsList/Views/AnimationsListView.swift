@@ -9,11 +9,11 @@ import UIKit
 import SwiftUI
 import Lottie
 
-struct LottieView: UIViewRepresentable {
+struct AnimationsListView: UIViewRepresentable {
 
     @State var animationNamed: String
 
-    func makeUIView(context: UIViewRepresentableContext<LottieView>) -> UIView {
+    func makeUIView(context: UIViewRepresentableContext<AnimationsListView>) -> UIView {
         
         let view = UIView(frame: .zero)
         
